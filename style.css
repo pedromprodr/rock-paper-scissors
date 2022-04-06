@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: slategray;
+    justify-content: center;
+}
+.container{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.plays-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#roundResults{
+    display: flex;
+    justify-content: center;
+    color: gainsboro;
+}
+.score{
+    color: gainsboro;
+}
+#reset{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 128px;
+    border-radius: 18px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+.game-img{
+    height: 150px;
+    width: 150px;
+}
+
+.playbutton{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    box-shadow: 10px;
+    border-radius: 18px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+
